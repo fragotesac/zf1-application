@@ -20,15 +20,6 @@
  * @version    $Id$
  */
 
-/**
- * Zend_Loader_Autoloader
- */
-require_once 'Zend/Loader/Autoloader.php';
-
-/**
- * Zend_Controller_Front
- */
-require_once 'Zend/Controller/Front.php';
 
 /**
  * @category   Zend
@@ -400,5 +391,4 @@ class Zend_Application_Resource_FrontcontrollerTest extends PHPUnit\Framework\Te
     }
 }
 
-require_once 'Zend/Controller/Dispatcher/Standard.php';
 class ZF9724_Dispatcher extends Zend_Controller_Dispatcher_Standard {}

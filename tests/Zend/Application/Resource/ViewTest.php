@@ -20,11 +20,6 @@
  * @version    $Id$
  */
 
-/**
- * Zend_Loader_Autoloader
- */
-require_once 'Zend/Loader/Autoloader.php';
-
 require_once 'Zend/Application/Resource/View.php';
 
 /**

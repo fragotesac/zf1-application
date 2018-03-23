@@ -21,11 +21,6 @@
  */
 
 /**
- * Zend_Loader_Autoloader
- */
-require_once 'Zend/Loader/Autoloader.php';
-
-/**
  * Zend_Application_Resource_ResourceAbstract
  */
 require_once 'Zend/Application/Resource/ResourceAbstract.php';

@@ -20,7 +20,6 @@
  * @version    $Id$
  */
 
-require_once 'Zend/Controller/Action/Helper/ViewRenderer.php';
 
 /**
  * @category   Zend
@@ -29,7 +28,7 @@ require_once 'Zend/Controller/Action/Helper/ViewRenderer.php';
  * @copyright  Copyright (c) 2005-2015 Zend Technologies USA Inc. (http://www.zend.com)
  * @license    http://framework.zend.com/license/new-bsd     New BSD License
  */
-class Zend_Application_Resource_TestAsset_ViewRenderer 
+class Zend_Application_Resource_TestAsset_ViewRenderer
     extends Zend_Controller_Action_Helper_ViewRenderer
 {
 }
